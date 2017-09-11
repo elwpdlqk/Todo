@@ -60,6 +60,7 @@ var addItem = function (newItem) {
 // index: 삭제할 아이템의 인덱스
 var deleteItem = function (index) {
     console.log('deleteItem')
+    items.splice(index, 1)
 }
 
 // 특정 인덱스의 아이템을 수정한다.
