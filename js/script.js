@@ -65,9 +65,23 @@ var deleteItem = function (index) {
 
 // 특정 인덱스의 아이템을 수정한다.
 // index : 수정할 인덱스
-// updateItem : 수정 내용
-var updateItem = function (index, updateItem) {
-    console.log('updateItem')
+// updateItem : 수정 내용, index에 있는 객체를 item(Todo Item) 객체로 변경
+// updateItem(0, { body: '헬로', complte: true })
+var updateItem = function (index, item) {
+    console.log('updateItem')    
+    // 매개변수 index가 값이 있을 때만 업데이트, 아니면 return
+    if (getItem(index) === undefined) {
+        console.error('없는 인덱스')
+        return 
+    }
+//    getItem(index) = item
+//    getItem(index).body = item;
+//    if (item === String()) {
+//        getItem(index).complete = true
+//    }
+    items[index] = item
+//    items[index].body = item.body
+//    items[index].complete = item.complete
 }
 
 // items를 화면에 출력한다
