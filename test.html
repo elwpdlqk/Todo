@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>함수이용해서 숫자출력</title>
+</head>
+
+<body>
+    <script>
+        function isDivideBy(num, a) {
+            // 숫자인지 체크
+            // a가 0인지 체크
+            
+            // 실제 필요한 값을 전달
+        }
+        
+        function isDividByThree(num) {
+            if (num % 3 === 0) {
+                return true;
+            }
+            return false;
+        }
+
+        function isDividByFive(num) {
+            if (num % 5 === 0) {
+                return true;
+            }
+            return false;
+        }
+
+        function isDividByFifteen(num) {
+            if (num % 15 === 0) {
+                return true;
+            }
+            return false;
+        }   
+        for (var i = 1; i <= 100; i++) {
+            if (isDividByFifteen(i)) {
+                console.log('FizzBuzz');
+            } else if (isDividByFive(i)) {
+                console.log('Buzz')
+            } else if (isDividByThree(i)) {
+                console.log('Fizz')
+            } else {
+                console.log(i)
+            }
+        }
+
+    </script>
+</body>
+
+</html>
