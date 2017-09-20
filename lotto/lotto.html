@@ -8,8 +8,28 @@
     <script src="./js/lotto.js"></script>
 </head>
 <body>
-    <button onclick="outText()">
+<!-- 1단계 -->
+<!--
+    <button onclick="createRandomNumbers(1, 46, 6)">
         번호생성
     </button>
+    <ul id="result">
+        <li>1,2,3,4,5,6</li>
+    </ul>
+-->
+<!-- 2단계 -->
+   <input type="number" autofocus>
+   <input type="number">
+   <input type="number">
+    <button onclick="createRandomNumbers(1, 46, 6)">
+        번호생성
+    </button>
+    <ul id="result">
+        <li>
+           최소값 : 00, 최대값 : 00, 갯수: 00 <br>
+            1,2,3,4,5,6
+        </li>
+    </ul>
+
 </body>
 </html>
