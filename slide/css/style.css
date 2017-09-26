@@ -1,0 +1,42 @@
+@charset 'utf-8';
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.img_view {
+    position: relative;
+    width: 400px;
+    height: 250px;
+    margin: 100px auto;
+    overflow: hidden;
+}
+
+.img_container {
+    position: absolute;
+    overflow: hidden;
+}
+
+.img_box {
+    float: left;
+    width: 400px;
+    height: 250px;
+    text-align: center;
+    line-height: 250px;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    width: 50px;
+    height: 50px;
+    background: #999;
+    cursor: pointer;
+}
+
+.right_arrow {
+    right: 0;
+}
