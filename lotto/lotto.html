@@ -6,10 +6,35 @@
     <title>로또번호 생성</title>
     <link rel="stylesheet" href="./css/style.css">
     <script src="./js/lotto.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .wrap {
+            width: 80vw;
+            margin: 5vh auto;
+        }
+        
+        li {
+            color: #fff;
+            margin-top: 10px;
+            text-align: center;
+            line-height: 40px;
+            overflow:auto;
+        }
+        li:nth-child(2n) {
+            background: #37a893;
+        }
+        li:nth-child(2n-1) {
+            background: #5e7ab9;
+        }
+    </style>
 </head>
+
 <body>
-<!-- 1단계 -->
-<!--
+    <!-- 1단계 -->
+    <!--
     <button onclick="createRandomNumbers(1, 46, 6)">
         번호생성
     </button>
@@ -17,19 +42,20 @@
         <li>1,2,3,4,5,6</li>
     </ul>
 -->
-<!-- 2단계 -->
-   <input type="number" autofocus>
-   <input type="number">
-   <input type="number">
-    <button onclick="createRandomNumbers(1, 46, 6)">
+    <!-- 2단계 -->
+    <div class="wrap">
+        <input type="number" autofocus>
+        <input type="number">
+        <input type="number">
+        <button onclick="createRandomNumbers()">
         번호생성
     </button>
-    <ul id="result">
-        <li>
-           최소값 : 00, 최대값 : 00, 갯수: 00 <br>
-            1,2,3,4,5,6
-        </li>
-    </ul>
+        <ul id="result">
+            <li>
+                최소값 : 00, 최대값 : 00, 갯수: 00 <br> 1,2,3,4,5,6
+            </li>
+        </ul>
+    </div>
 
 </body>
 </html>
