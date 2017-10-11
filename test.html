@@ -2,52 +2,66 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <title>함수이용해서 숫자출력</title>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="./css/test.css">
 </head>
 
 <body>
-    <script>
-        function isDivideBy(num, a) {
-            // 숫자인지 체크
-            // a가 0인지 체크
-            
-            // 실제 필요한 값을 전달
-        }
-        
-        function isDividByThree(num) {
-            if (num % 3 === 0) {
-                return true;
-            }
-            return false;
-        }
+	<div class="container">
+		<header class="haerder">
+			<nav class="nav">
+				<div class="logo">
+					<img src="./img/y18.gif" alt="">
+				</div>
+				<h1 class="title">Hacker News</h1>
+				<ul class="nav__list">
+					<li>new |</li>
+					<li>comments |</li>
+					<li>show |</li>
+					<li>ask |</li>
+					<li>jobs</li>
+				</ul>
+			</nav>
+		</header>
+		<section class="content">
+			<div class="lists">
+				<div class="list">
+					<span class="list__number">??.</span>
+					<span class="list__title">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, dicta.
+					</span>
+					<span class="list__source">
+						(lorem)
+					</span>
+					<br>
+					<span class="list__points">
+						??? points
+					</span>
+					<span class="list__writer">
+						by ??
+					</span>
+					<span class="list__time">
+						?? ago
+					</span>
+					<span class="list__text">
+						| hide |
+					</span>
+					<span class="list__comments">
+						<a href="#open">?? comments </a>
+					</span>
+				</div>
+			</div>
+			<div id="open" class="modal">
+				<div class="modal__content">
+					<p class="text">모달창입니다. <a href="#close">닫기</a></p>
+				</div>
+			</div>
+		</section>
+		<footer class="footer">
 
-        function isDividByFive(num) {
-            if (num % 5 === 0) {
-                return true;
-            }
-            return false;
-        }
-
-        function isDividByFifteen(num) {
-            if (num % 15 === 0) {
-                return true;
-            }
-            return false;
-        }   
-        for (var i = 1; i <= 100; i++) {
-            if (isDividByFifteen(i)) {
-                console.log('FizzBuzz');
-            } else if (isDividByFive(i)) {
-                console.log('Buzz')
-            } else if (isDividByThree(i)) {
-                console.log('Fizz')
-            } else {
-                console.log(i)
-            }
-        }
-
-    </script>
+		</footer>
+	</div>
 </body>
 
 </html>
