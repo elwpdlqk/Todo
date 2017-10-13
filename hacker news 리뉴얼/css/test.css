@@ -192,9 +192,15 @@ ul {
     box-sizing: border-box;
 }
 
-.text {
-    vertical-align: middle;
-    text-align: right;
+.close-box {
+    position: absolute;
+    top: -10px;
+    right: 0;
+}
+.close-box a {
+    font-weight: bold;
+    font-size: 2em;
+    color: #ed2424;
 }
 
 
