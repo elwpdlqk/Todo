@@ -51,7 +51,7 @@ var createRandomNumbers = function () {
             return
         }
     }
-    
+
     if (inputNumber[0] > inputNumber[1]) {
         console.error('최소,최대값 범위를 다시시정하세요')
         return
@@ -106,7 +106,7 @@ var shuffle = function (min, max) {
     for (var i = 0; i < max - min + 1; i++) {
         arr.push(min + i)
     }
-    
+
     for (var j = arr.length; j; j--) {
         var shuffleNumber = Math.floor(Math.random() * j);
         var shuffleBox = arr[j - 1];
@@ -120,4 +120,3 @@ var shuffle = function (min, max) {
 }
 
 var arr = shuffle(1, 46)
-
