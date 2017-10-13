@@ -293,10 +293,6 @@ ul {
         line-height: 50px;
         transform: translate(40%, -50%);
     }
-    .list__writer {}
-    .list__time {}
-    .list__text {}
-    .list__comments {}
     .list__comments a {
         color: #1403e5;
         font-weight: bold;
