@@ -73,7 +73,7 @@ var createListHTML = function (item) {
         + '</a>' 
         + '</span>' 
         + '<span class="list__source">' 
-        + '<a href="#">(' 
+        + '<a href="#"> (' 
         + item.source 
         + ')</a>' 
         + '</span>' 
