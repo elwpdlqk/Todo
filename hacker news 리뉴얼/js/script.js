@@ -100,7 +100,6 @@ var createListHTML = function (item) {
         + '</span>' 
         + '</div>'
 
-
     return template
 }
 
@@ -111,7 +110,7 @@ var drawList = function () {
     var lists = []
 
     // 데이터로 createListHTML 실행 (반복문)
-    for (i = 0; i < data.length; i++) {
+    for (var i = 0; i < data.length; i++) {
         lists.push(createListHTML(data[i]))
     }
     var result = lists.join('');
