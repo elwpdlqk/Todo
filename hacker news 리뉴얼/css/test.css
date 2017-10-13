@@ -195,7 +195,7 @@ ul {
 .close-box {
     position: absolute;
     top: -10px;
-    right: 0;
+    right: 5px;
 }
 .close-box a {
     font-weight: bold;
