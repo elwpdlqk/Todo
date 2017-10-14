@@ -195,6 +195,14 @@ ul {
     padding-bottom: 10px;
     border-bottom: 1px solid #484848;
 }
+.comment-title {
+    color: #1542ff;
+}
+.comments-index {
+    padding: 10px 0;
+    font-size: 1.5em;
+    font-weight: bold;
+}
 
 
 
