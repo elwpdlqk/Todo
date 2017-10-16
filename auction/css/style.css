@@ -11,7 +11,7 @@ ul {
 
 a {
     text-decoration: none;
-    color: #fff;
+    color: #000;
 }
 
 
@@ -47,12 +47,15 @@ a {
     float: right;
 }
 
+.nav-top__ul a {
+    color: #fff;
+}
+
 .nav-top li,
 .nav-bottom li {
     display: inline-block;
 }
 
-.title {}
 
 .nav-bottom-wrap {
     border-bottom: 2px solid #000;
@@ -129,7 +132,6 @@ a {
 
 
 .mdpick {
-    height: 250px;
     margin-bottom: 30px;
 }
 
@@ -148,16 +150,18 @@ a {
 
 .mdpick__index li {
     display: inline-block;
-    width: 12.5%;
+    width: 16%;
     text-align: center;
     line-height: 30px;
-    margin-right:5%;
+    margin-right: 0.801%;
 }
+
 .mdpick__index li:last-child {
     margin-right: 0;
 }
 
 .mdpick__index li a {
+    position: relative;
     display: block;
     width: 100%;
     height: 100%;
@@ -165,16 +169,54 @@ a {
     color: #000;
     border: 1px solid #000;
     border-bottom: 0;
-
-
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+.mdpick__index li a:hover:after {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid #fff;
+}
+
+.mdpick__page-wrap {
+    font-size: 0;
+    border-top: 1px solid;
+}
+
+.mdpick__page li {
+    width: 16%;
+    display: inline-block;
+    text-align: center;
+    margin-right: 0.801%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 0.8em;
+}
+
+.mdpick__page li:last-child {
+    margin-right: 0;
+}
+.mdpick__page li a {
+    font-size: 12px;
+}
+
+.mdpick__page span {
+    font-weight: bold;
+}
 
 
 .bestitem {
-    height: 250px;
+    font-size: 0.8em;
+    text-align:center;
 }
 
 
@@ -182,4 +224,22 @@ a {
     width: 100%;
     height: 30px;
     background-image: url(http://image.auction.co.kr/SpecialShop/201309/sshop_13181313714.jpg);
+}
+
+.bestitem__box:first-child {
+    width: 30%;
+}
+.bestitem__box:last-child {
+    width: 70%;
+}
+.bestitem__page {
+    float: left;
+    width: 25%;
+}
+
+.bestitem__page span {
+    font-weight: bold;
+}
+.first {
+    width: 100%;
 }
