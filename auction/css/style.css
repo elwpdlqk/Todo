@@ -17,6 +17,7 @@ a {
 
 
 /*header start*/
+
 .hedaer {
     position: relative;
 }
@@ -25,7 +26,7 @@ a {
     background: #E8001E;
 }
 
-.nav-top ,
+.nav-top,
 .nav-bottom {
     width: 980px;
     margin: 0 auto;
@@ -33,6 +34,7 @@ a {
     line-height: 40px;
     font-size: 0.8em;
 }
+
 .nav-top {
     color: #fff;
 }
@@ -75,7 +77,7 @@ a {
 
 .nav-bottom .left li:last-child:after {
     position: absolute;
-    transform: translate(-300%,0%);
+    transform: translate(-300%, 0%);
     content: '';
     border-top: 10px solid #BC9A6E;
     border-left: 10px solid transparent;
@@ -91,9 +93,11 @@ a {
     width: 980px;
     margin: 0 auto;
 }
+
 .main-visual {
     overflow: hidden;
 }
+
 .topbox {
     overflow: hidden;
 }
@@ -101,6 +105,7 @@ a {
 .input-box {
     line-height: 50px;
 }
+
 .input-box button {
     padding: 4px;
     font-size: 0.7em;
@@ -109,6 +114,7 @@ a {
     border: 1px solid;
     border-radius: 3px;
 }
+
 .bottombox {
     position: relative;
     padding: 10px;
@@ -132,7 +138,41 @@ a {
     width: 100%;
     height: 30px;
     background-image: url(http://image.auction.co.kr/SpecialShop/201309/sshop_06183258514.jpg);
+    margin-bottom: 15px;
 }
+
+.mdpick__index {
+    font-size: 0;
+
+}
+
+.mdpick__index li {
+    display: inline-block;
+    width: 12.5%;
+    text-align: center;
+    line-height: 30px;
+    margin-right:5%;
+}
+.mdpick__index li:last-child {
+    margin-right: 0;
+}
+
+.mdpick__index li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 13px;
+    color: #000;
+    border: 1px solid #000;
+    border-bottom: 0;
+
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
 .bestitem {
     height: 250px;
 }
@@ -143,4 +183,3 @@ a {
     height: 30px;
     background-image: url(http://image.auction.co.kr/SpecialShop/201309/sshop_13181313714.jpg);
 }
-
