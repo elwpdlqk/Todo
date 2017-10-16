@@ -1,0 +1,146 @@
+@charset 'utf-8';
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+/*header start*/
+.hedaer {
+    position: relative;
+}
+
+.nav-top-wrap {
+    background: #E8001E;
+}
+
+.nav-top ,
+.nav-bottom {
+    width: 980px;
+    margin: 0 auto;
+    overflow: hidden;
+    line-height: 40px;
+    font-size: 0.8em;
+}
+.nav-top {
+    color: #fff;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.nav-top li,
+.nav-bottom li {
+    display: inline-block;
+}
+
+.title {}
+
+.nav-bottom-wrap {
+    border-bottom: 2px solid #000;
+}
+
+.nav-bottom {
+    font-weight: bold;
+}
+
+.nav-bottom .left li:last-child:before {
+    position: absolute;
+    top: 30px;
+    line-height: 15px;
+    font-size: 0.8em;
+    content: '프리미엄 맴버십';
+    background: #BC9A6E;
+    border-radius: 3px;
+    padding: 2px;
+    font-weight: normal;
+    color: #fff;
+}
+
+.nav-bottom .left li:last-child:after {
+    position: absolute;
+    transform: translate(-300%,0%);
+    content: '';
+    border-top: 10px solid #BC9A6E;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+}
+
+/*header end*/
+
+/*main start*/
+
+.section-wrap {
+    width: 980px;
+    margin: 0 auto;
+}
+.main-visual {
+    overflow: hidden;
+}
+.topbox {
+    overflow: hidden;
+}
+
+.input-box {
+    line-height: 50px;
+}
+.input-box button {
+    padding: 4px;
+    font-size: 0.7em;
+    background-image: linear-gradient(to bottom right, #808080, #0d0d0d);
+    color: #fff;
+    border: 1px solid;
+    border-radius: 3px;
+}
+.bottombox {
+    position: relative;
+    padding: 10px;
+    width: 100%;
+    height: 540px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-image: url(http://image.auction.co.kr/SpecialShop/201708/sshop_24110656314.jpg);
+    margin-bottom: 30px;
+}
+
+
+.mdpick {
+    height: 250px;
+    margin-bottom: 30px;
+}
+
+
+.mdpick__title-box {
+    width: 100%;
+    height: 30px;
+    background-image: url(http://image.auction.co.kr/SpecialShop/201309/sshop_06183258514.jpg);
+}
+.bestitem {
+    height: 250px;
+}
+
+
+.bestitem__title-box {
+    width: 100%;
+    height: 30px;
+    background-image: url(http://image.auction.co.kr/SpecialShop/201309/sshop_13181313714.jpg);
+}
+
