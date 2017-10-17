@@ -26,3 +26,29 @@ body {
     text-transform: uppercase;
     color: #b2a400;
 }
+
+
+.content {
+    padding: 15px;
+}
+
+.content__title {
+    margin-bottom: 50px;
+}
+
+table  {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+    border-collapse: collapse;
+}
+th {
+    width: 10%;
+    line-height: 50px;
+    background: #9a9a9a;
+}
+td {
+    padding: 10px;
+    border-bottom: 1px solid;
+}
